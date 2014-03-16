@@ -1,0 +1,18 @@
+{
+  "name": "75bin",
+  "version": "0.0.0",
+  "description": "whiskers75's pastebin",
+  "main": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "whiskers75",
+  "license": "BSD",
+  "dependencies": {
+    "redis": "~0.10.1",
+    "express": "~3.4.8",
+    "winston": "~0.7.2",
+    "validator": "~3.5.0"
+  }
+}

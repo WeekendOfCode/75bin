@@ -1,0 +1,21 @@
+75bin(1)                          75BIN                          75bin(1)
+
+NAME
+    75bin: whiskers75's little command line pastebin.
+
+SYNOPSIS
+    [command] | curl -F 'bin=<-' http://75bin.me
+
+DESCRIPTION
+    Made for a Weekend of Code project on 16 Mar 2014.
+    Built with Node.js and the Express.js web framework.
+
+    Use <a href='data:text/html,<form action="http://75bin.me" method="POST"><textarea name="bin" cols="80" rows="24"></textarea><br><button type="submit">bin it</button></form>'>this form</a> (not copied from sprunge.us at all!) to make requests from a browser
+EXAMPLES
+    $ cat logfile.log | curl -F 'bin=<-' http://75bin.me
+      http://75bin.me/2
+SEE ALSO
+    <a href="http://whiskers75.co.uk">http://whiskers75.co.uk</a> for whiskers75's main site
+    <a href="http://medium.com/@whiskers75">http://medium.com/@whiskers75</a> for his blog
+    <a href="http://medium.com/weekend-of-code">http://medium.com/weekend-of-code</a> for more Weekend of Code projects
+
